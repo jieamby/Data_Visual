@@ -1,0 +1,11 @@
+<body>
+  <script>
+    const scale = d3.scaleLinear(); // Buat skala di sini
+    const output = scale(50); // Sebut skala dengan argumen di sini
+
+    d3.select("body")
+      .append("h2")
+      .text(output);
+
+  </script>
+</body>

@@ -1,0 +1,12 @@
+<body>
+  <script>
+    const scale = d3.scaleLinear()
+    .domain([250, 500]) //tentukan nilai metode
+    .range([10, 150]); //tentukan nilai metode
+
+    const output = scale(50);
+    d3.select("body")
+      .append("h2")
+      .text(output);
+  </script>
+</body>
