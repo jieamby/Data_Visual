@@ -1,0 +1,63 @@
+<body>
+  <h1 id="title">United States Educational Attainment</h1>
+  <p id="description">Percentage of adults age 25 and older with a bachelor's degree or higher (2010-2014)</p>
+  <figure id="mapViewer">
+    <svg id="map"></svg>
+    <svg id="legend"></svg>
+  </figure>
+  <section>
+    <h2>Controls</h2>
+    <table>
+      <caption>Keys for controlling map</caption>
+      <tr>
+        <th scope="col">Key</th>
+        <th scope="col">Function</th>
+      </tr>
+      <tr>
+        <td>e</td>
+        <td>Zoom In</td>
+      </tr>
+      <tr>
+        <td>q</td>
+        <td>Zoom Out</td>
+      </tr>
+      <tr>
+        <td>a</td>
+        <td>Move Left</td>
+      </tr>
+      <tr>
+        <td>d</td>
+        <td>Move Right</td>
+      </tr>
+      <tr>
+        <td>w</td>
+        <td>Move Up</td>
+      </tr>
+      <tr>
+        <td>s</td>
+        <td>Move Down</td>
+      </tr>
+      <tr>
+        <td>f</td>
+        <td>Reset View</td>
+      </tr>
+    </table>
+    <ul>
+      <strong>Hint</strong>
+      <li>Press and hold the keys to pan and zoom faster.</li>
+      <li>Press keys briefly to do discrete pan and zoom.</li>
+    </ul>
+    <ul id="options">
+      <legend><strong>Options</strong></legend>
+      <li>
+        <input type="checkbox" id="invertPan" name="invert" value="pan"/>
+        <label for="invertPan">Invert Pan</label>
+      </li>
+      <li>
+        <input type="checkbox" id="invertZoom" name="invert" value="zoom"/>
+        <label for="invertZoom">Invert Zoom</label>
+      </li>
+    </ul>
+  </section>
+  <div id="tooltip"></div>
+</body>
